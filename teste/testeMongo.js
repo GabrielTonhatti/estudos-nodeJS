@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 console.log("Version: " + mongoose.version);
 mongoose.connect('mongodb://localhost/aprendendo')
-    // mongodb+srv://gabriel:gtc27061@cluster0.4vsur.mongodb.net/escola?retryWrites=true&w=majority
     .then(() => {
         console.log('MongoDB conectado...');
     })

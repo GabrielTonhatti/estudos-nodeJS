@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mariaDB@localhost" uuid="af718e66-28e7-4702-9036-b433d06c422e">
+    <data-source source="LOCAL" name="mariaDB@localhost" uuid="7dd16e46-20ae-42ff-bc3f-882b05482698">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="MongoDB - site-animes@atlas" uuid="31476e45-66e4-47dd-af3b-eb41db36fd5f">
-      <driver-ref>mongo</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
-      <jdbc-url>mongodb+srv://cluster0.k35z7.mongodb.net/site-animes</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="mongoDB@localhost" uuid="3ed6125f-15ee-4c2d-8ac6-9ecab3780f65">
+    <data-source source="LOCAL" name="mongoDB@localhost" uuid="c8fa79a1-7833-4d31-8ceb-fc992a56e7e5">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
       <jdbc-url>mongodb://localhost:27017</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="MongoDB-Atlas" uuid="da69bb9c-64f8-41e6-b439-a2337bde3d14">
-      <driver-ref>mongo</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
-      <jdbc-url>mongodb+srv://cluster0.4vsur.mongodb.net/escola</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

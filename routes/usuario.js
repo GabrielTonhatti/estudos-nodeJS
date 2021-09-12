@@ -60,7 +60,7 @@ router.post("/registro", (req, res) => {
 
                            novoUsuario.save()
                                .then(() => {
-                                   req.flash("success_msg", "Usuário criado co sucesso!");
+                                   req.flash("success_msg", "Usuário criado com sucesso!");
                                    res.redirect("/");
                                })
                                .catch(err => {

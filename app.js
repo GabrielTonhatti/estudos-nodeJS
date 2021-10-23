@@ -6,6 +6,7 @@ const admin = require('./routes/admin');
 const path = require('path');
 const mongoose = require('mongoose');
 const session = require('express-session');
+require('dotenv').config();
 const flash = require('connect-flash');
 require("./models/Categoria");
 const Postagem = mongoose.model("postagens");
